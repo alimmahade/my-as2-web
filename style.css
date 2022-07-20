@@ -148,7 +148,7 @@
             width: 80%;
      }
 
-     /* --------Section 2 Tablet Responsive start------ */
+     /* --------Tablet Responsive Section 2 start------ */
      .section2 {
         margin: 0 auto;
         
@@ -207,8 +207,55 @@
       Mobile Responsive Start   
       ----------------- */
       @media screen and (max-width:576px) {
+        .hero-sec {
+          display: flex;
+          flex-direction: column;             
+      }
+        .hero-sec p {
+          
+          display: none;
+          
              
       }
+      .sec2-left-links{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+         }
+         .section2-left button {
+          display: inline;
+          text-align: center;
+          padding: 0;
+          border: none;
+          background-color: wheat;
+          color: black;
+          
+          border-radius: 4px;
+          
+      }
+      .section2-right {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+      }
+     
+    hr{
+      display: none;
+    }
+    .footer{
+      padding: 10px;
+    }
+      .footer a{
+        display: block;
+        flex-direction: column;
+        padding: 0;
+        
+        
+    }
+    }
        /* --------------
       Mobile Responsive Start   
       ----------------- */
