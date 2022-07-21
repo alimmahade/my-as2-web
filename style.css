@@ -187,11 +187,13 @@ margin: 0;
             background-color: rgb(46, 1, 57);
             border-radius: 20px;
             margin-bottom: 20px;
+            color: white;
           }
         .hero-text {
             color: white;
             width: 50%;
             padding: 20px;
+            text-align: center;
           }
           .hero-text h1 {
             font-size: 2rem;
@@ -208,12 +210,11 @@ margin: 0;
 
      /* --------Tablet Responsive Section 2 start------ */
      .section2 {
+      background-color: rgb(46, 1, 57);
         margin: 0 auto;
-        
-        
-
         display: flex;
-        align-items: center;}
+        align-items: center;
+        text-align: center;}
 
      .section2-left {
         width: 100%;
@@ -242,26 +243,28 @@ margin: 0;
     }
 
     .section2-right {
-            flex-direction: row;
-            align-items: center;
-           justify-content: center;
-            display: grid;
-            grid-template-columns: 50% 50%;
-            order: 2;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          display: grid;
+          grid-template-columns: 50% 50%;
+          order: 2;
           }
     .match-shedul{width: 100%;
-            display: grid;
-            grid-template-columns:  repeat(2,1fr);
+          display: grid;
+          grid-template-columns:  repeat(2,1fr);
           margin: 0 auto;
           flex-direction: column-reverse;
-          order: 3;}
+          order: 3;
+          text-align: center;
+          color:red;}
     
-          .footer{order: 4;
-            display: flex;
-        flex-direction: column;
+    .footer{order: 4;
+          display: flex;
+          flex-direction: column;
          justify-content: center;
-        align-items: center;
-        left: 0px;
+          align-items: center;
+          left: 0px;
         }
     }
      /* --------------
@@ -274,14 +277,14 @@ margin: 0;
       @media screen and (max-width:576px) {
         .hero-sec {
           display: flex;
-          flex-direction: column;             
+          flex-direction: column;
+          background-color: blueviolet; 
+          color: white;  
+          text-align: center;         
       }
         .hero-sec p {
-          
           display: none;
-          
-             
-      }
+                 }
       .sec2-left-links{
         display: flex;
         flex-direction: column;
@@ -305,6 +308,7 @@ margin: 0;
         justify-content: center;
         align-items: center;
         grid-template-columns: repeat(1, 1fr);
+        color: rgb(240, 229, 208);
       }
      
     hr{
@@ -316,6 +320,7 @@ margin: 0;
     .match-shedul{
       display: grid;
       grid-template-columns:repeat(1,1fr);
+      background-color: rgb(4, 4, 4);
     }
     .footer{
       padding: 10px;
